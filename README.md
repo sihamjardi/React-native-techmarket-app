@@ -1,51 +1,50 @@
-# Welcome to your Expo app 👋
+# Afficher un grand catalogue avec FlatList (TechMarket App)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Objectifs du lab
+À la fin de ce lab, l’étudiant sera capable de :
+Définir une liste de données (tableau d’objets) pour un catalogue.
+Utiliser le composant FlatList pour afficher une longue liste de façon performante.
+Créer un composant d’élément (Item) réutilisable.
+Utiliser keyExtractor pour gérer les clés.
+Appliquer des styles avec StyleSheet pour séparer présentation et logique.
 
-## Get started
+---
 
-1. Install dependencies
+## Contexte pédagogique
+On veut développer une petite application mobile appelée TechMarket, qui affiche une liste de produits technologiques (smartphones, laptops, casques, etc.) avec :
+le nom du produit,
+le prix,
+un identifiant unique (id).
+Le catalogue peut contenir des dizaines d’articles, donc on veut un défilement fluide sans ralentir l’application. FlatList est donc le composant idéal.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Pré-requis
+Avoir un environnement React Native fonctionnel (Expo ou React Native CLI).
+Savoir créer un projet React Native basique.
+Avoir déjà vu les composants View, Text, StyleSheet.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Structure du projet
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<img width="223" height="440" alt="image" src="https://github.com/user-attachments/assets/ac90f3c6-fc71-4ff2-89ff-03a741eeca6a" />
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Resultat
 
-When you're ready, run:
+<img width="1853" height="1007" alt="image" src="https://github.com/user-attachments/assets/3dea9b69-5915-4f0b-998e-f96e6f9df774" />
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Auteur
 
-To learn more about developing your project with Expo, look at the following resources:
+**Nom :** JARDI Siham
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Cours :**  React Native
 
-## Join the community
+**Date :** Janvier 2026
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"# React-native-techmarket-app" 
+**Encadré par :** Pr.Mohamed LACHGHAR
