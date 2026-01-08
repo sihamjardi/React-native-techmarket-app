@@ -47,4 +47,4 @@ Avoir déjà vu les composants View, Text, StyleSheet.
 
 **Date :** Janvier 2026
 
-**Encadré par :** Pr.Mohamed LACHGHAR
+**Encadré par :** Pr.Mohamed LACHGAR
